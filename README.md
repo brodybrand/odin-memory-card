@@ -1,1 +1,1 @@
-# odin-memory-card
+A simple memory game using the React library.
