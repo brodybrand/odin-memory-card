@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 
-export default function Card({ props, size = 200, isSelected, onClick }) {
+export default function Card({
+  props,
+  size = 200,
+  isSelected,
+  onClick,
+  isActive,
+}) {
   return (
     <div className="card-wrapper">
       <img
